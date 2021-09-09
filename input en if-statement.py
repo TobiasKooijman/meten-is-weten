@@ -1,0 +1,15 @@
+# Inputs
+print("")
+print("")
+print("")
+A = input('Geef de waarde van A ')
+A_Waarde = 'De waarde van A is ' + str(A)
+print(A_Waarde)
+B = input('Geef de waarde van B ')
+B_Waarde = 'De waarde van B is ' + str(B)
+print(B_Waarde)
+print("")
+print("----------------------------------------------------------------------")
+print("")
+if A_Waarde > B_Waarde:
+    print("A is het grootste getal")
