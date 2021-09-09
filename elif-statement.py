@@ -6,8 +6,12 @@ var2 = input("    geef de waarde van b ")
 
 print("")
 print("---------------------------------------------------------------------->")
-print("")
 
-if var1 > var2:
+
+if var2 > var1:
+    print("    a is het kleinste getal")
+
+elif var2 < var1:
     print("    a is het grootste getal")
 
+else: print("    a en b zijn gelijk")
